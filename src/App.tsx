@@ -13,7 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/YOUR_REPO_NAME">
+      <BrowserRouter basename="/Waborena-H-Madisha-Portfolio">
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
