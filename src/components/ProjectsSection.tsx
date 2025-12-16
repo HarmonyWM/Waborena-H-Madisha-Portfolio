@@ -1,26 +1,6 @@
-import { ExternalLink, Github, ArrowRight } from 'lucide-react';
+import { Github, ArrowRight } from 'lucide-react';
 
 const projects = [
-  {
-    title: 'EmpowerHer Web App',
-    subtitle: 'SheLeads Hackathon',
-    description:
-      'A web platform designed to empower women by providing access to mentorship, resources, and community support.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'Python'],
-    skills: ['Full-stack development', 'Teamwork', 'Rapid prototyping'],
-    image: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&h=400&fit=crop',
-    link: '#',
-  },
-  {
-    title: 'Dice Simulation & Statistical Analysis',
-    subtitle: 'Data Science Project',
-    description:
-      'A data-driven simulation project analyzing dice roll probabilities using Python, visualized with histograms and statistical summaries.',
-    tech: ['Python', 'Data Analysis'],
-    skills: ['Statistical analysis', 'Data visualization'],
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
-    link: '#',
-  },
   {
     title: 'Guardian Shield',
     subtitle: 'AI Safety Platform',
@@ -29,7 +9,7 @@ const projects = [
     tech: ['Python', 'AI Concepts', 'Backend Logic', 'Git'],
     skills: ['Problem-solving', 'AI application design', 'Secure system thinking'],
     github: 'https://github.com/HarmonyWM/guardian-shield',
-    link: '#',
+    image: 'https://raw.githubusercontent.com/HarmonyWM/guardian-shield/main/guardian_shield_logo.png',
   },
   {
     title: 'AquaWise SA',
@@ -39,7 +19,7 @@ const projects = [
     tech: ['Python', 'Data Analysis', 'Sustainability Tech', 'Git'],
     skills: ['Environmental innovation', 'Data interpretation', 'Social impact design'],
     github: 'https://github.com/HarmonyWM/aqua-wise-sa',
-    link: '#',
+    image: 'https://raw.githubusercontent.com/HarmonyWM/aqua-wise-sa/main/generated-icon.png',
   },
   {
     title: 'Nocta System',
@@ -49,7 +29,7 @@ const projects = [
     tech: ['Java', 'Python', 'System Design', 'Git', 'OOP'],
     skills: ['Team collaboration', 'Software architecture', 'Version control'],
     github: 'https://github.com/israel77-1995/Nocta-system',
-    link: '#',
+    image: 'https://raw.githubusercontent.com/israel77-1995/Nocta-system/main/nocta.png',
   },
 ];
 
@@ -74,11 +54,11 @@ const ProjectsSection = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {/* Project Image */}
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-48 overflow-hidden bg-secondary/50 flex items-center justify-center">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="max-w-full max-h-full object-contain transition-transform duration-500 group-hover:scale-110 p-4"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent" />
               </div>
@@ -110,23 +90,23 @@ const ProjectsSection = () => {
                 {/* Actions */}
                 <div className="flex items-center gap-3 pt-4 border-t border-border">
                   <a
-                    href={project.link}
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
                   >
                     View Project
                     <ArrowRight size={14} />
                   </a>
-                  {project.github && (
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-                    >
-                      <Github size={16} />
-                      GitHub
-                    </a>
-                  )}
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    <Github size={16} />
+                    GitHub
+                  </a>
                 </div>
               </div>
             </div>

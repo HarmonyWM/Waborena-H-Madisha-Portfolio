@@ -24,7 +24,7 @@ const HeroSection = () => {
                 <span className="gradient-text text-glow">Waborena Harmony Madisha</span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-                Business Management Graduate | Software Engineering Student | Cloud & AI Certified
+                Business Management Graduate | Software Engineer in Training | Cloud & AI Certified
               </p>
               <p className="text-lg text-muted-foreground mb-8 max-w-xl">
                 I build technology-driven solutions that combine business strategy, software
@@ -41,7 +41,8 @@ const HeroSection = () => {
                   <ExternalLink size={18} />
                 </a>
                 <a
-                  href="#contact"
+                  href="/Madisha_Waborena_Harmony_Resume.pdf"
+                  download
                   className="inline-flex items-center gap-2 px-8 py-4 border border-border rounded-lg font-semibold transition-all duration-300 hover:bg-secondary gradient-border"
                 >
                   Download CV

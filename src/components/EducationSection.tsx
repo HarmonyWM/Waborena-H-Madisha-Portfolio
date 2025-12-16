@@ -1,16 +1,16 @@
 import { GraduationCap, Award, Calendar } from 'lucide-react';
-import harmonyGraduation from '@/assets/harmony-graduation.jpeg';
+import harmonyEducation from '@/assets/harmony-education.jpeg';
 
 const education = [
-  {
-    degree: 'BCom Business Management',
-    institution: 'University of Johannesburg',
-    period: '2020 – 2024',
-  },
   {
     degree: 'Occupational Certificate: Software Engineering (NQF 6)',
     institution: 'WeThinkCode_',
     period: '2025 – Present',
+  },
+  {
+    degree: 'BCom Business Management',
+    institution: 'University of Johannesburg',
+    period: '2020 – 2024',
   },
 ];
 
@@ -86,7 +86,7 @@ const EducationSection = () => {
             <div className="relative">
               <div className="w-80 h-[420px] rounded-2xl overflow-hidden gradient-border glow-box">
                 <img
-                  src={harmonyGraduation}
+                  src={harmonyEducation}
                   alt="Harmony at graduation"
                   className="w-full h-full object-cover"
                 />
