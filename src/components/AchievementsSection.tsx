@@ -1,4 +1,5 @@
 import { Trophy, Award, Star } from 'lucide-react';
+import achievementsBg from '@/assets/achievements-bg.jpeg';
 
 const achievements = [
   {
@@ -21,8 +22,18 @@ const achievements = [
 
 const AchievementsSection = () => {
   return (
-    <section id="achievements" className="py-24 relative">
-      <div className="container mx-auto px-6">
+    <section id="achievements" className="py-24 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img
+          src={achievementsBg}
+          alt=""
+          className="w-full h-full object-cover opacity-10"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/90 to-background" />
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="section-title">
             Achievements & <span className="gradient-text">Awards</span>
@@ -36,7 +47,7 @@ const AchievementsSection = () => {
           {achievements.map((achievement, index) => (
             <div
               key={index}
-              className="group relative bg-card rounded-2xl p-8 card-hover gradient-border glow-box-hover"
+              className="group relative bg-card/80 backdrop-blur-sm rounded-2xl p-8 card-hover gradient-border glow-box-hover"
               style={{ animationDelay: `${index * 150}ms` }}
             >
               <div className="flex items-start gap-4">
