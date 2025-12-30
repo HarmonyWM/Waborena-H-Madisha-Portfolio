@@ -29,7 +29,7 @@ const projects = [
     tech: ['Java', 'Python', 'System Design', 'Git', 'OOP'],
     skills: ['Team collaboration', 'Software architecture', 'Version control'],
     github: 'https://github.com/israel77-1995/Nocta-system',
-    image: 'https://raw.githubusercontent.com/israel77-1995/Nocta-system/main/nocta.png',
+    image: '/nocta-system.svg',
   },
 ];
 
