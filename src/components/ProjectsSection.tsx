@@ -9,7 +9,7 @@ const projects = [
     tech: ['Python', 'AI Concepts', 'Backend Logic', 'Git'],
     skills: ['Problem-solving', 'AI application design', 'Secure system thinking'],
     github: 'https://github.com/HarmonyWM/guardian-shield',
-    image: 'https://raw.githubusercontent.com/HarmonyWM/guardian-shield/main/guardian_shield_logo.png',
+    image: '/guardian-shield.svg',
   },
   {
     title: 'AquaWise SA',
@@ -19,7 +19,7 @@ const projects = [
     tech: ['Python', 'Data Analysis', 'Sustainability Tech', 'Git'],
     skills: ['Environmental innovation', 'Data interpretation', 'Social impact design'],
     github: 'https://github.com/HarmonyWM/aqua-wise-sa',
-    image: 'https://raw.githubusercontent.com/HarmonyWM/aqua-wise-sa/main/generated-icon.png',
+    image: '/aquawise-sa.svg',
   },
   {
     title: 'Nocta System',
