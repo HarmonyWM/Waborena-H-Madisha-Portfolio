@@ -41,7 +41,7 @@ const HeroSection = () => {
                   <ExternalLink size={18} />
                 </a>
                 <a
-                  href="/Madisha_Waborena_Harmony_Resume.pdf"
+                  href="/Waborena-H-Madisha-Portfolio/WH MADISHA Resume.pdf"
                   download
                   className="inline-flex items-center gap-2 px-8 py-4 border border-border rounded-lg font-semibold transition-all duration-300 hover:bg-secondary gradient-border"
                 >
