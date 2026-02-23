@@ -24,11 +24,10 @@ const HeroSection = () => {
                 <span className="gradient-text text-glow">Waborena Harmony Madisha</span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-                Business Management Graduate | Software Engineer in Training | Cloud & AI Certified
+                Data Analytics Graduate | Business Intelligence Specialist | Python & SQL Developer
               </p>
               <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-                I build technology-driven solutions that combine business strategy, software
-                engineering, and AI to create real-world impact.
+                I transform complex datasets into actionable business insights through advanced analytics, statistical modelling, and interactive visualisation. With expertise in Python, SQL, and Power BI, I deliver data-driven solutions that support strategic decision-making in enterprise environments. My analytical approach combines technical proficiency with business acumen to extract meaningful patterns, validate data integrity, and present findings that drive organisational value.
               </p>
 
               {/* CTA Buttons */}
@@ -37,7 +36,7 @@ const HeroSection = () => {
                   href="#projects"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold transition-all duration-300 hover:scale-105 glow-box animate-pulse-glow"
                 >
-                  View Projects
+                  View Analytics Projects
                   <ExternalLink size={18} />
                 </a>
                 <a
