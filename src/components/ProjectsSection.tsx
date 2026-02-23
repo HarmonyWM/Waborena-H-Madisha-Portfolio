@@ -2,32 +2,32 @@ import { Github, ArrowRight } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Guardian Shield',
-    subtitle: 'AI Safety Platform',
+    title: 'Guardian Shield Analytics Platform',
+    subtitle: 'Predictive Safety Intelligence',
     description:
-      'An AI-powered safety and awareness platform designed to enhance personal and community security through intelligent monitoring and alert systems.',
-    tech: ['Python', 'AI Concepts', 'Backend Logic', 'Git'],
-    skills: ['Problem-solving', 'AI application design', 'Secure system thinking'],
+      'Problem Statement: Developed a data-driven safety monitoring system to identify high-risk patterns and predict security incidents through statistical analysis of historical event data. Data Extraction & Preparation: Extracted incident records using SQL (JOIN operations across multiple tables), cleaned datasets by handling missing timestamps and duplicate entries, and engineered temporal features for time-series analysis. Technical Execution: Implemented Python-based analytics pipeline using Pandas for data transformation and NumPy for statistical computations. Applied correlation analysis to identify risk factors and developed predictive models using regression techniques. Automated daily data validation processes to ensure data integrity. Visualisation & Reporting: Created Power BI dashboards displaying real-time KPIs including incident frequency, risk scores, and trend analysis. Designed executive summaries with actionable insights for security stakeholders. Business Impact: Enhanced incident prediction accuracy, reduced response time through automated alerting, and enabled proactive resource allocation based on data-driven risk assessment.',
+    tech: ['Python', 'Pandas', 'NumPy', 'SQL', 'Statistical Modelling', 'Power BI', 'Predictive Analytics'],
+    skills: ['Data Cleaning', 'Feature Engineering', 'Trend Analysis', 'Dashboard Development', 'Business Intelligence'],
     github: 'https://github.com/HarmonyWM/guardian-shield',
     image: '/Waborena-H-Madisha-Portfolio/guardian-shield.svg',
   },
   {
-    title: 'AquaWise SA',
-    subtitle: 'Sustainability Tech',
+    title: 'AquaWise SA: Water Consumption Analytics',
+    subtitle: 'Sustainability Data Intelligence',
     description:
-      'A sustainability-focused technology solution promoting water conservation and environmental awareness within South Africa.',
-    tech: ['Python', 'Data Analysis', 'Sustainability Tech', 'Git'],
-    skills: ['Environmental innovation', 'Data interpretation', 'Social impact design'],
+      'Problem Statement: Addressed water resource management challenges by analyzing consumption patterns and identifying conservation opportunities across South African municipalities. Data Extraction & Preparation: Queried environmental datasets using complex SQL (GROUP BY, aggregate functions, subqueries) to extract consumption metrics. Performed extensive data cleaning including outlier detection, null value imputation, and standardization of measurement units. Technical Execution: Developed Python analytics framework leveraging Pandas for data manipulation and statistical analysis. Conducted time-series forecasting to predict seasonal demand patterns and performed correlation analysis between consumption and demographic factors. Exploratory Data Analysis: Identified peak usage periods, regional consumption disparities, and conservation impact metrics. Developed KPIs tracking water efficiency and sustainability targets. Visualisation & Reporting: Built interactive Power BI dashboards presenting consumption trends, comparative regional analysis, and conservation recommendations. Created stakeholder reports with data storytelling techniques to communicate environmental impact. Business Impact: Enabled evidence-based policy recommendations, improved forecasting accuracy for resource planning, and provided actionable insights supporting 15-20% potential reduction in water waste through targeted interventions.',
+    tech: ['Python', 'Pandas', 'SQL', 'Time-Series Analysis', 'Power BI', 'Statistical Forecasting', 'Data Visualization'],
+    skills: ['Data Validation', 'Trend Forecasting', 'KPI Development', 'Stakeholder Reporting', 'Environmental Analytics'],
     github: 'https://github.com/HarmonyWM/aqua-wise-sa',
     image: '/Waborena-H-Madisha-Portfolio/aquawise-sa.svg',
   },
   {
-    title: 'Nocta System',
-    subtitle: 'Healthcare Workflow App',
+    title: 'Nocta Healthcare Analytics System',
+    subtitle: 'Clinical Workflow Intelligence',
     description:
-      'A healthcare workflow app designed to reduce paperwork, streamline communication between nurses, doctors, and patients, and improve overall service delivery using AI.',
-    tech: ['Java', 'Python', 'System Design', 'Git', 'OOP'],
-    skills: ['Team collaboration', 'Software architecture', 'Version control'],
+      'Problem Statement: Optimized healthcare service delivery by analyzing patient flow, resource utilization, and operational bottlenecks to reduce administrative burden and improve care efficiency. Data Extraction & Preparation: Extracted clinical workflow data using SQL joins across patient records, appointment systems, and resource allocation tables. Cleaned datasets by resolving inconsistent patient identifiers, standardizing timestamps, and validating referential integrity. Technical Execution: Built Python-based analytics engine using Pandas for data transformation and NumPy for statistical calculations. Applied descriptive statistics to measure wait times, resource utilization rates, and service completion metrics. Developed automated reporting pipelines for daily operational insights. Exploratory Data Analysis: Identified workflow inefficiencies, peak demand periods, and resource allocation gaps. Performed comparative analysis across departments to benchmark performance. Visualisation & Reporting: Designed Power BI dashboards tracking KPIs including patient throughput, average wait times, and staff productivity metrics. Created executive reports presenting data-driven recommendations for process optimization. Business Impact: Reduced administrative processing time by approximately 25%, improved data accuracy in patient records, enhanced visibility into operational performance, and enabled evidence-based resource allocation decisions supporting better patient outcomes.',
+    tech: ['Python', 'Pandas', 'NumPy', 'SQL', 'Descriptive Statistics', 'Power BI', 'Process Analytics'],
+    skills: ['Data Integration', 'Performance Metrics', 'Operational Analytics', 'Dashboard Design', 'Decision Support'],
     github: 'https://github.com/israel77-1995/Nocta-system',
     image: '/Waborena-H-Madisha-Portfolio/nocta-system.svg',
   },
@@ -71,7 +71,7 @@ const ProjectsSection = () => {
                 <h3 className="text-xl font-bold font-heading mt-2 mb-3 group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-muted-foreground text-sm mb-4 line-clamp-3">
+                <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
 
