@@ -8,8 +8,11 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h3 className="text-2xl font-bold font-heading mb-6 gradient-text">
-              Get In Touch
+              Let's Connect
             </h3>
+            <p className="text-muted-foreground mb-4">
+              Open to Graduate Data Analytics opportunities in enterprise environments. Let's discuss how data-driven insights can support your organization.
+            </p>
             <div className="space-y-4">
               <a
                 href="mailto:madishaharmony@yahoo.com"

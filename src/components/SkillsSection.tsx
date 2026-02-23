@@ -2,11 +2,11 @@ import { Database, TrendingUp, BarChart3, FolderKanban } from 'lucide-react';
 
 const dataAnalyticsSkills = [
   'Python (Pandas, NumPy)',
-  'SQL (Joins, Aggregations, Subqueries)',
+  'SQL (Joins, Aggregations, Filtering, Subqueries)',
   'Data Cleaning & Validation',
+  'Exploratory Data Analysis (EDA)',
   'Statistical Analysis',
   'Data Modelling',
-  'Exploratory Data Analysis (EDA)',
 ];
 
 const businessIntelligenceSkills = [
@@ -14,7 +14,7 @@ const businessIntelligenceSkills = [
   'Dashboard Development',
   'KPI Tracking',
   'Data Visualisation',
-  'Executive Reporting',
+  'Report Creation',
   'Business Intelligence Reporting',
 ];
 
@@ -29,10 +29,10 @@ const dataManagementSkills = [
 
 const professionalSkills = [
   'Analytical Thinking',
-  'Stakeholder Engagement',
-  'Cross-Functional Collaboration',
-  'Presentation & Communication',
   'Structured Problem Solving',
+  'Stakeholder Communication',
+  'Presentation of Insights',
+  'Cross-Functional Collaboration',
   'Decision Support',
 ];
 
@@ -56,7 +56,7 @@ const SkillsSection = () => {
               <div className="p-3 bg-primary/20 rounded-xl text-primary">
                 <Database size={28} />
               </div>
-              <h3 className="text-lg font-bold font-heading">Programming & Analytics</h3>
+              <h3 className="text-lg font-bold font-heading">Programming & Data Analysis</h3>
             </div>
             <div className="flex flex-wrap gap-3">
               {dataAnalyticsSkills.map((skill) => (

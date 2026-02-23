@@ -24,10 +24,10 @@ const HeroSection = () => {
                 <span className="gradient-text text-glow">Waborena Harmony Madisha</span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-                Data Analytics Graduate | Business Intelligence Specialist | Python & SQL Developer
+                Graduate Data Analyst – Python, SQL, BI
               </p>
               <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-                I transform complex datasets into actionable business insights through advanced analytics, statistical modelling, and interactive visualisation. With expertise in Python, SQL, and Power BI, I deliver data-driven solutions that support strategic decision-making in enterprise environments. My analytical approach combines technical proficiency with business acumen to extract meaningful patterns, validate data integrity, and present findings that drive organisational value.
+                I extract actionable insights from complex datasets through SQL data extraction, Python-based analysis, and Business Intelligence dashboards. My approach combines data cleaning and validation, exploratory data analysis, and statistical reasoning to support data-driven decision-making. Proficient in Pandas, NumPy, and Power BI, I transform raw data into clear, evidence-based recommendations for enterprise stakeholders.
               </p>
 
               {/* CTA Buttons */}
