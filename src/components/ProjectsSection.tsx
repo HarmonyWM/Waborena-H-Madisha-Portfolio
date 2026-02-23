@@ -39,10 +39,10 @@ const ProjectsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="section-title">
-            Featured <span className="gradient-text">Projects</span>
+            Analytics <span className="gradient-text">Portfolio</span>
           </h2>
           <p className="section-subtitle mx-auto">
-            A selection of my recent work showcasing innovation and technical expertise
+            Enterprise-grade data analytics solutions demonstrating technical proficiency and business impact
           </p>
         </div>
 

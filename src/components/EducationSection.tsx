@@ -30,7 +30,7 @@ const EducationSection = () => {
             Education & <span className="gradient-text">Certifications</span>
           </h2>
           <p className="section-subtitle mx-auto">
-            Continuous learning and professional development
+            Academic foundation and professional development in data analytics and business intelligence
           </p>
         </div>
 

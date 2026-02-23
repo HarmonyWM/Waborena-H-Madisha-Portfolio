@@ -36,10 +36,10 @@ const AchievementsSection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="section-title">
-            Achievements & <span className="gradient-text">Awards</span>
+            Professional <span className="gradient-text">Recognition</span>
           </h2>
           <p className="section-subtitle mx-auto">
-            Recognition for innovation and excellence in technology
+            Demonstrated excellence in analytical problem-solving and data-driven innovation
           </p>
         </div>
 
