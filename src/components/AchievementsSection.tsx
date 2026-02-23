@@ -7,7 +7,7 @@ const achievements = [
     title: '1st Place – Meta LLaMA Hackathon',
     year: '2025',
     description:
-      'Built an AI-driven solution using Meta LLaMA models, focusing on innovation, rapid prototyping, and real-world impact.',
+      'Developed advanced analytics solution leveraging AI models for data pattern recognition, predictive insights, and automated decision support systems.',
     color: 'primary',
   },
   {
@@ -15,7 +15,7 @@ const achievements = [
     title: 'Top 10 Finalist – NEMISA Discothon',
     year: '2025',
     description:
-      'Selected among top teams nationally for innovative use of emerging technologies.',
+      'Selected among top teams nationally for data-driven innovation and analytical problem-solving using emerging technologies.',
     color: 'accent',
   },
 ];

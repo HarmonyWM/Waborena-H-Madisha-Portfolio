@@ -3,7 +3,7 @@ import harmonyEducation from '@/assets/harmony-education.jpeg';
 
 const education = [
   {
-    degree: 'Occupational Certificate: Software Engineering (NQF 6)',
+    degree: 'Occupational Certificate: Data Analytics & Software Engineering (NQF 6)',
     institution: 'WeThinkCode_',
     period: '2025 – Present',
   },
@@ -15,10 +15,10 @@ const education = [
 ];
 
 const certifications = [
-  'Oracle Cloud Infrastructure (OCI)',
-  'Full Stack Development – FNB App Academy',
-  'Microsoft AI Fluency',
-  'Generative AI for Software Engineers',
+  'Python for Data Science & Analytics',
+  'SQL Database Management & Query Optimization',
+  'Microsoft AI & Data Analytics',
+  'Business Intelligence & Visualization Tools',
 ];
 
 const EducationSection = () => {
