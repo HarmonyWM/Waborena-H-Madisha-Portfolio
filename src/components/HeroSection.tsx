@@ -24,10 +24,10 @@ const HeroSection = () => {
                 <span className="gradient-text text-glow">Waborena Harmony Madisha</span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-                Business Management Graduate / Software Engineer in Training
+                Software Engineer
               </p>
               <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-                I extract actionable insights from complex datasets through SQL data extraction, Python-based analysis, and Business Intelligence dashboards. My approach combines data cleaning and validation, exploratory data analysis, and statistical reasoning to support data-driven decision-making. Proficient in Pandas, NumPy, and Power BI, I transform raw data into clear, evidence-based recommendations for enterprise stakeholders.
+                I'm Waborena Harmony Madisha, a Software Engineer passionate about building scalable systems, backend solutions, and data-driven technologies that solve real-world problems. My experience spans software development, APIs, data engineering, analytics, and distributed systems using technologies such as Python, Java, SQL, Docker, PostgreSQL, and Power BI.
               </p>
 
               {/* CTA Buttons */}
@@ -40,7 +40,7 @@ const HeroSection = () => {
                   <ExternalLink size={18} />
                 </a>
                 <a
-                  href="/Waborena-H-Madisha-Portfolio/Waborena_H_Madisha_CV_.pdf"
+                  href="/Waborena-H-Madisha-Portfolio/Waborena_Madisha______CV.pdf"
                   download
                   className="inline-flex items-center gap-2 px-8 py-4 border border-border rounded-lg font-semibold transition-all duration-300 hover:bg-secondary gradient-border"
                 >
