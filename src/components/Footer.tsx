@@ -11,7 +11,7 @@ const Footer = () => {
               Let's Connect
             </h3>
             <p className="text-muted-foreground mb-4">
-              Open to Graduate Data Analytics opportunities in enterprise environments. Let's discuss how data-driven insights can support your organization.
+              Passionate about building scalable software systems, backend solutions, and data-driven technologies that create real-world impact. Let's connect and build meaningful digital solutions.
             </p>
             <div className="space-y-4">
               <a
@@ -30,7 +30,7 @@ const Footer = () => {
               </a>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin size={20} />
-                Johannesburg, South Africa
+                Gauteng, South Africa
               </div>
             </div>
           </div>

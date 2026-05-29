@@ -5,7 +5,7 @@ const education = [
   {
     degree: 'Occupational Certificate: Data Analytics & Software Engineering (NQF 6)',
     institution: 'WeThinkCode_',
-    period: '2025 – Present',
+    period: '2025 – 2026',
   },
   {
     degree: 'BCom Business Management',

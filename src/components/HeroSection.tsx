@@ -23,9 +23,15 @@ const HeroSection = () => {
                 Hi, I'm{' '}
                 <span className="gradient-text text-glow">Waborena Harmony Madisha</span>
               </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-                Software Engineer
-              </p>
+              <div className="mb-6">
+                <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-primary/10 border border-primary/30 text-primary text-sm font-semibold tracking-widest uppercase mb-3">
+                  <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+                  Available for Opportunities
+                </span>
+                <p className="text-3xl md:text-4xl font-bold font-heading gradient-text text-glow">
+                  Software Engineer
+                </p>
+              </div>
               <p className="text-lg text-muted-foreground mb-8 max-w-xl">
                 I'm Waborena Harmony Madisha, a Software Engineer passionate about building scalable systems, backend solutions, and data-driven technologies that solve real-world problems. My experience spans software development, APIs, data engineering, analytics, and distributed systems using technologies such as Python, Java, SQL, Docker, PostgreSQL, and Power BI.
               </p>
