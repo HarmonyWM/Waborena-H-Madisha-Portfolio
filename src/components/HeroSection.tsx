@@ -17,7 +17,7 @@ const HeroSection = () => {
             <div className="animate-fade-up">
               <p className="text-primary font-medium mb-4 flex items-center gap-2">
                 <MapPin size={16} />
-                Johannesburg, South Africa
+                Gauteng, South Africa
               </p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading mb-4 leading-tight">
                 Hi, I'm{' '}
